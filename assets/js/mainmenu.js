@@ -15,7 +15,7 @@ var mainMenuState = {
 
 
     create: function() {
-        startBtn = game.add.button(game.world.centerX-95, 200, 'startBtn', this.startGame, this, 2, 1, 0);
+        startBtn = game.add.button(game.world.centerX - 95, 200, 'startBtn', this.startGame, this, 2, 1, 0);
 
         var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
         spaceKey.onDown.add(this.startGame, this);
