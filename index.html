@@ -5,13 +5,13 @@
     <title> Flappy Bird </title>
         <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0" />
-        
+
         <style>
             body {
                 background: #9296e6;
             }
         </style>
-      
+
         <script type="text/javascript" src="assets/js/phaser.min.js"></script>
         <script type="text/javascript" src="assets/js/play.js"></script>
         <script type="text/javascript" src="assets/js/menu.js"></script>
@@ -23,7 +23,7 @@
     <div id="fbx"></div>
     <script>
         var game = new Phaser.Game(400, 490, Phaser.AUTO, "fb");
-        
+
         game.state.add('play', playState);
         game.state.add('menu', menuState);
         game.state.add('mainMenu', mainMenuState);
